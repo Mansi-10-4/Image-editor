@@ -1,0 +1,37 @@
+# Mini Project
+
+## Steps to Run the Image Editor
+
+1. **Install Dependencies**:
+    Ensure you have all the required dependencies installed. You can install them using pip:
+    ```bash
+    pip install gradio pillow rembg numpy
+    ```
+
+2. **Navigate to the Project Directory**:
+    Open your terminal or command prompt and navigate to the project directory:
+    ```bash
+    cd c:\Users\Mansi Patel\python_project\Mini project\Task-1
+    ```
+
+3. **Run the Application**:
+    Execute the Python script to start the Gradio interface:
+    ```bash
+    python app3.py
+    ```
+
+4. **Open the Interface**:
+    Once the script is running, it will provide you with a local URL (e.g., `http://127.0.0.1:7860`). Open this URL in your web browser to access the image editor interface.
+
+5. **Use the Image Editor**:
+    - Upload an image.
+    - Use the provided options to flip, rotate, convert to black and white, resize, adjust brightness, contrast, saturation, remove background, and choose the image format.
+    - View the processed image and download it if desired.
+
+6. **Flagging**:
+    If you encounter any issues or want to flag an image, the flagged images will be saved in the `flagged` directory.
+
+## Additional Information
+
+- Ensure you have a stable internet connection as Gradio might need to download some resources.
+- The processed images will be saved in the same directory as the script with the name `processed_image.<format>`.
